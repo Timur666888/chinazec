@@ -13,7 +13,3 @@ function calculateBonus($total)
 }   
 $sums=[5000];
 
-foreach ($sums as $sum) {
-    $b = calculateBonus($sum);
-    echo "ваша сумма: $sum <br> ваш бонус: $b";
-}
